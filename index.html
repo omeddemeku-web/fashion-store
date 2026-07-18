@@ -2,7 +2,6 @@
 <html lang="am">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,63 +19,19 @@
     <header>
         <h1>Discover Your Style</h1>
         <p>Modern Fashion for Everyone</p>
-        <button>Shop Now</button>
+        <button class="my-btn">Shop Now</button>
     </header>
 
     <section>
-        <img src="hero.jpg" alt="Fashion Image" style="width:100%;">
+        <img src="hero.jpg" alt="Fashion" style="width:100%; max-width:600px;">
     </section>
 
     <h2>Featured Products</h2>
+    <div class="products">
+        <img src="tshirt.jpg" alt="T-Shirt" style="width:150px;">
+        <img src="hoodie.jpg" alt="Hoodie" style="width:150px;">
+        <img src="jeans.jpg" alt="Jeans" style="width:150px;">
+        <img src="shoes.jpg" alt="Shoes" style="width:150px;">
+    </div>
 </body>
 </html>
-
-/* Style.css ኮድ */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
-}
-
-nav {
-    background: #000;
-    color: #fff;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 0;
-}
-
-header {
-    padding: 60px 20px;
-    background: #fff;
-}
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-button {
-    background: #ff9800;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-section {
-    margin: 20px 0;
-}
-
-
-
