@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: lime;
+}
+
+.my-btn {
+    background-color: lime;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
